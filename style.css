@@ -1,0 +1,128 @@
+#parent{
+    position: absolute;
+    height: 2000px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    scroll-behavior: auto;
+    /* background-color: green; */
+}
+body{
+    font-family: calibri;
+}
+#left{
+    position: absolute;
+    height: 2000px;
+    width: 50%;
+    left: 0;
+    top: 0;
+    background-image: url(img/21.jpg);
+    background-size: cover;
+}
+#right{
+    position: absolute;
+    height: 2000px;
+    width: 50%;
+    right: 0;
+    top: 0;
+    background-color: rgb(7, 7, 44);
+}
+#divform{
+    position: absolute;
+    height: 1780px;
+    width: 80%;
+    margin: 12%;
+    border-radius: 20px 0px 20px 0px;
+    background-color: aliceblue;
+}
+fieldset{
+    border-radius: 20px;
+}
+legend{
+    background-color: indigo;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.2em;
+}
+p{
+    /* position: absolute; */
+    left: 30%;
+    top: 2%;
+    font-weight: 600;
+    font-size: 1.5em;
+    background-color: indigo;
+    border-radius: 5px;
+    padding: 10px;
+    /* width: 150px; */
+    text-align: center;
+    color: white;
+}
+#ptag{
+    justify-self: center;
+}
+label{
+    font-size: 1.0em;
+    font-weight: 600;
+}
+#fullname{
+    padding: 12px;
+    width: 480px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+#email{
+    padding: 12px;
+    width: 480px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+#number{
+    padding: 12px;
+    width: 480px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+#homeaddress{
+    padding: 12px;
+    width: 480px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+#company{
+    padding: 12px;
+    width: 480px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+#years{
+    padding: 12px;
+    width: 480px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+#hope{
+    padding: 12px;
+    width: 480px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+#submit{
+    padding: 15px;
+    width: 500px;
+    border-radius: 5px;
+    border: 0;
+    font-weight: 600;
+    color: whitesmoke;
+    background-color: rgb(7, 7, 44);
+}
+select{
+    /* width: 480px; */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-weight: 600;
+    font-size: 0.9em;
+}
+
